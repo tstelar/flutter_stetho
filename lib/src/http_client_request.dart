@@ -59,7 +59,7 @@ class StethoHttpClientRequest implements HttpClientRequest {
     );
   }
 
-  @override void abort([Object? exception, StackTrace? stackTrace]) {
+  @override void abort([Object exception, StackTrace stackTrace]) {
     noSuchMethod(Invocation invocation) => 'Got the ${invocation.memberName} with arguments ${invocation.positionalArguments}';
   }
 
